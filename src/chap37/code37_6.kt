@@ -11,7 +11,7 @@ fun main() {
     println(result2)
 }
 
-fun getCalculator(type: String): (Double, Double) -> Double { //引数としてtypeを受け取り、戻り値としてDouble型を2つ受取りDouble型を返す関数を返す。
+fun getCalculator(type: String): (Double, Double) -> Double { //引数としてtypeを受け取り、戻り値として「Double型を2つ受取りDouble型を返す関数」を返す。
     val p = fun(x: Double, y: Double) = x + y
     val m = fun(x: Double, y: Double) = x - y
 

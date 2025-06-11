@@ -1,7 +1,5 @@
 package chap44
 
-import java.awt.SystemColor.text
-
 fun main() {
     val text = "勉強"
     val message = text.getOneTwoFiveMessage()
